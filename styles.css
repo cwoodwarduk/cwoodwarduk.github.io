@@ -726,6 +726,14 @@ nav {
 
     .projectHeading {
         font-size: 1.1rem;
+        margin-top: 5px;
+    }
+
+    .projectHeading p {
+        margin-top: 5px;
+        height: 20px;
+        width: 100%;
+        font-size: 0.9rem;
     }
 }
 
