@@ -152,6 +152,10 @@ nav {
     color: white;
 }
 
+.koreanHamburger {
+    visibility: hidden;
+}
+
 .content {
     padding: 0px;
 }
@@ -163,7 +167,7 @@ nav {
 
 .aboutMe {
     background-color: #fffaf0;
-    height: 520px;
+    height: 550px;
     padding-top: 1%;
 }
 
@@ -186,28 +190,26 @@ nav {
 }
 
 .portrait {
-    width: 25%;
+    width: 28%;
     float: left;
+    position: relative;
     margin-top: 2%;
     overflow: auto;
 }
 
-.portraitPhoto {
+.portraitPhoto img {
     width: 100%;
-    border-radius: 50%;
-    border: 5px solid #b30000;
 }
 
-.scrum {
-    width: 120px;
-    position: relative;
-    float: left;
-    top: -50px;
-    left: 120px;
+.scrum img {
+    width: 50%;
+    position: absolute;
+    top: 150px;
+    right: 0px;
 }
 
 .aboutMeText {
-    font-size: 1.1rem;
+    font-size: 1rem;
     float: right;
     width: 65%;
 }
@@ -325,6 +327,19 @@ nav {
     width: 100%;
 }
 
+.githubLink {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 5;
+}
+
 .projectHeading {
     color: white;
     font-size: 1.2rem;
@@ -376,22 +391,23 @@ nav {
     overflow: auto;
 }
 
-/*.contact {*/
-/*    width: 50%;*/
-/*    height: 120px;*/
-/*    float: left;*/
-/*    text-align: center;*/
-/*}*/
-
 .contactLinks {
-    width: 46%;
-    height: 60px;
+    width: 45.5%;
+    height: 90px;
     margin: 1.6%;
+    padding: 10px;
+    background-color: transparent;
     border: 1px solid darkgrey;
     float: left;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
-    font-size: 2rem;
+}
+
+.contactLinks p {
+    margin: 12px;
+    font-size: 2.3rem;
+    margin: 0;
 }
 
 .contactLinks:hover {
@@ -401,9 +417,234 @@ nav {
 
 .contactLinks img {
     height: 70%;
-    margin-top: 5px;
+    margin-top: 15px;
     filter: brightness(0) invert(1);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+@media screen and (max-width: 1200px){
+    .aboutMe {
+        height: 600px;
+    }
+
+    .contactLinks p {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    html {
+        font-size: 14px;
+    }
+
+    nav {
+        width: 120px;
+    }
+
+    .hamburger {
+        width: 100px;
+    }
+
+    .korean {
+        width: 100px;
+    }
+
+    .menuItems li {
+        font-size: 0.9rem;
+    }
+
+    .heading {
+        width: 90%;
+        margin: 0% 5% 0% 5%;
+    }
+
+    .aboutMe {
+        height: 580px;
+    }
+
+    .portfolio {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .githubLink {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    html {
+        font-size: 13px;
+    }
+
+    nav {
+        overflow: hidden;
+        width: 100%;
+        background: #b30000;
+    }
+
+    .hamburger {
+        color: floralwhite;
+        height: 60px;
+        padding-top: 18px;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+
+    .korean {
+        visibility: hidden;
+        display: none;
+    }
+
+    .menuItems li {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .koreanHamburger {
+        visibility: visible;
+    }
+
+    .aboutMe {
+        margin-top: 60px;
+    }
+
+    .contactLinks p {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .portfolio {
+        height: 1350px;
+    }
+
+    .portfolioContainer {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .projectContainer {
+        width: 90%;
+        margin: 20px 5% 20px 5%;
+    }
+
+    .projectHeading {
+        font-size: 1.5rem;
+    }
+
+    .githubLink {
+        height: 55px;
+        width: 55px;
+    }
+
+    .contactLinks {
+        width: 98%;
+        height: 70px;
+    }
+
+    .contactLinks p {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .contactLinks img {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    html {
+        font-size: 11px;
+    }
+
+    .banner {
+        height: 380px;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .aboutMe {
+        height: 1100px;
+    }
+
+    .portrait {
+        float: none;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .aboutMeText {
+        float: none;
+        margin: 0 auto 30px auto;
+        font-size: 1.5rem;
+    }
+
+    .competencies {
+        height: 1110px;
+    }
+
+    .label {
+        width: 33%;
+    }
+
+    .portfolio {
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner {
+        padding-top: 0px;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 10% auto 0 auto;
+    }
+
+    .aboutMe {
+        height: 1150px;
+    }
+
+    .heading {
+        padding: 5px;
+    }
+
+    .aboutMeContainer {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .portfolio {
+        height: 1250px;
+    }
+
+    .portfolioContainer {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .githubLink {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .portfolio {
+        height: 1100px;
+    }
 }
