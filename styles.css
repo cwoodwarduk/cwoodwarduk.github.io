@@ -407,7 +407,6 @@ nav {
 .contactLinks p {
     margin: 12px;
     font-size: 2.3rem;
-    margin: 0;
 }
 
 .contactLinks:hover {
@@ -471,6 +470,10 @@ nav {
     .githubLink {
         height: 50px;
         width: 50px;
+    }
+
+    .contactLinks p {
+        font-size: 1.8rem;
     }
 }
 
@@ -647,4 +650,41 @@ nav {
     .portfolio {
         height: 1100px;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutMe {
+        height: 1250px;
+    }
+
+    .portfolio {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .aboutMe {
+        height: 1300px;
+    }
+
+    .portfolio {
+        height: 920px;
+    }
+
+    .contactLinks p {
+        font-size: 2.1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .aboutMe {
+        height: 1350px;
+    }
+
+    .portfolio {
+        height: 900px;
+    }
+
 }
