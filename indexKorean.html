@@ -2,6 +2,7 @@
 <html lang="en-GB">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="I'm Calum Woodward, a full-stack developer, certified Scrum Master and Mayden Academy graduate.">
     <meta name="keywords" content="Calum Woodward, interactive CV, interactive resume,resume, CV, programmer, web developer, full-stack, scrum master, agile, startup , OOP, LAMP, MEAN, PHP, Javascript, JS, Node, React, SQL, MySQL,">
     <title>칼럼 우드워드 | 소프트웨어 개발자</title>
@@ -14,24 +15,22 @@
 </head>
 <body>
 
-
-
 <section class="banner">
     <div class="heading">
         <h1>안녕하세요, 저는 칼럼 입니다</h1>
         <h2>풀스택 소프트웨어 & 웹 개발자</h2>
         <div class="mediaLinksContainer">
-            <a>
+            <a href="https://www.linkedin.com/in/calum-woodward/">
                 <div class="mediaLinks">
                     <img src="images/linkedin_logo.png">
                 </div>
             </a>
-            <a>
+            <a href="https://github.com/cwoodwarduk">
                 <div class="mediaLinks">
                     <img src="images/github_logo.png">
                 </div>
             </a>
-            <a>
+            <a href="https://codepen.io/dashboard/">
                 <div class="mediaLinks">
                     <img src="images/codepen_logo.png">
                 </div>
@@ -52,7 +51,8 @@
             <a href="#competencies"><li>업무 능력</li></a>
             <a href="#portfolio"><li>포트폴리오</li></a>
             <a href="#contactMe"><li>연락처</li></a>
-            <li>이력서</li>
+            <a href="pdfs/Calum%20Woodward's%20CV.pdf"><li>이력서</li></a>
+            <a class='langHamburger' href="index.html"><li>한국어</li></a>
         </ul>
     </div>
 </nav>
@@ -65,8 +65,9 @@
         <div class="aboutMeContainer">
 
             <div class="portrait">
-                <img class="portraitPhoto" src="images/about_me.jpg" alt="Photo of Calum" />
-                <img class="scrum" src="images/scrum_master_logo.png">
+                <div class="portraitPhoto">
+                    <img src="images/about_me.png" alt="Photo of Calum" />
+                </div>
             </div>
 
             <article class="aboutMeText">
@@ -169,11 +170,6 @@
 
         <div class="portfolioContainer">
 
-            <div class="portfolioLinks">
-                <a><div></div></a>
-                <a><div></div></a>
-            </div>
-
             <div class="projectContainer">
                 <a href="https://codepen.io/kusanagi89/pen/rojqBp">
                     <img src="images/project_1_preview.png" alt="Feedback form preview">
@@ -183,6 +179,9 @@
                         <p>- Click to view on Codepen -</p>
                     </div>
                 </a>
+                <div class="githubLink">
+                    <a href="http://bit.ly/CWGeckosGithub" target="_blank"><img src="images/github_logo_mini_white.png"></a>
+                </div>
             </div>
             <div class="projectContainer">
                 <a href="https://codepen.io/kusanagi89/pen/gvrBPe">
@@ -193,6 +192,9 @@
                         <p>- Click to view on Codepen -</p>
                     </div>
                 </a>
+                <div class="githubLink">
+                    <a href="http://bit.ly/CWGeckosGithub" target="_blank"><img src="images/github_logo_mini_white.png"></a>
+                </div>
             </div>
         </div>
 
@@ -202,20 +204,26 @@
                     <img src="images/project_3_preview.png" alt="Old portfolio page preview">
                     <div class="projectOverlay"></div>
                     <div class="projectHeading">
-                        <h2>First Portfolio Page</h2>
+                        <h2>포트폴리오 페이지</h2>
                         <p>- Click to view on Codepen -</p>
                     </div>
                 </a>
+                <div class="githubLink">
+                    <a href="http://bit.ly/CWGeckosGithub" target="_blank"><img src="images/github_logo_mini_white.png"></a>
+                </div>
             </div>
             <div class="projectContainer">
                 <a href="https://dev.maydenacademy.co.uk/projects/2019Aug/2019-august-pairs/">
                     <img src="images/geckos_game.png" alt="Geckos game preview">
                     <div class="projectOverlay"></div>
                     <div class="projectHeading">
-                        <h2>Geckos Matching Game</h2>
+                        <h2>도마뱀붙이 게임</h2>
                         <p>- Click to view at Mayden Academy -</p>
                     </div>
                 </a>
+                <div class="githubLink">
+                    <a href="http://bit.ly/CWGeckosGithub" target="_blank"><img src="images/github_logo_mini_white.png"></a>
+                </div>
             </div>
         </div>
 
@@ -223,6 +231,33 @@
 
     <section class="contactMe" id="contactMe">
         <h1>연락처</h1>
+
+        <div class="contactsContainer">
+            <div class="contactRow">
+                <div class="mediaLinksContainer">
+                    <a href="mailto:cwdev@gmail.com">
+                        <div class="contactLinks email" onclick="copyText()">
+                            <p>cwdevuk@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/calum-woodward/">
+                        <div class="contactLinks">
+                            <img src="images/linkedin_logo.png">
+                        </div>
+                    </a>
+                    <a href="https://github.com/cwoodwarduk">
+                        <div class="contactLinks">
+                            <img src="images/github_logo.png">
+                        </div>
+                    </a>
+                    <a href="https://codepen.io/kusanagi89">
+                        <div class="contactLinks">
+                            <img src="images/codepen_logo.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
 </div>
