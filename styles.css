@@ -664,6 +664,10 @@ nav {
     .portfolio {
         height: 1000px;
     }
+
+    .projectHeading {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -673,6 +677,10 @@ nav {
 
     .aboutMe {
         height: 1300px;
+    }
+
+    .competencies {
+        height: 1060px;
     }
 
     .label img {
@@ -686,7 +694,6 @@ nav {
     .contactLinks p {
         font-size: 2.1rem;
     }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -697,10 +704,50 @@ nav {
     .portfolio {
         height: 900px;
     }
+
+    .projectHeading {
+        font-size: 1.2rem;
+    }
+
+    .githubLink {
+        height: 45px;
+        width: 45px;
+    }
 }
 
 @media screen and (max-width: 380px) {
+    html {
+        font-size: 10px;
+    }
+
     .aboutMe {
-        height: 1400px;
+        height: 1250px;
+    }
+
+    .projectHeading {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    html {
+        font-size: 9px;
+    }
+
+    .aboutMe {
+        height: 1100px;
+    }
+
+    .competencies {
+        height: 950px;
+    }
+
+    .label img {
+        height: 60px;
+    }
+
+    .githubLink {
+        height: 40px;
+        width: 40px;
     }
 }
