@@ -725,7 +725,7 @@ nav {
     }
 
     .projectHeading {
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-top: 5px;
     }
 
@@ -752,6 +752,18 @@ nav {
 
     .label img {
         height: 60px;
+    }
+
+    .projectHeading {
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    .projectHeading p {
+        margin-top: 5px;
+        height: 20px;
+        width: 100%;
+        font-size: 0.7rem;
     }
 
     .githubLink {
