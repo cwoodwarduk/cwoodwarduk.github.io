@@ -109,7 +109,7 @@ nav {
     cursor: pointer;
 }
 
-.korean {
+.lang {
     background-color: #75a3a3;
     color: floralwhite;
     height: 80px;
@@ -123,7 +123,7 @@ nav {
     user-select: none;
 }
 
-.korean:hover{
+.lang:hover{
     cursor: pointer;
 }
 
@@ -444,7 +444,7 @@ nav {
         width: 100px;
     }
 
-    .korean {
+    .lang {
         width: 100px;
     }
 
@@ -498,7 +498,7 @@ nav {
         cursor: pointer;
     }
 
-    .korean {
+    .lang {
         visibility: hidden;
         display: none;
     }
@@ -509,7 +509,7 @@ nav {
         margin: 0;
     }
 
-    .koreanHamburger {
+    .langHamburger {
         visibility: visible;
     }
 
