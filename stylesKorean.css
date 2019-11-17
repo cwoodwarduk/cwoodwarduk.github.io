@@ -52,9 +52,9 @@ a {
 .heading h2{
     font-weight: 300;
     font-size: 1.8rem;
+    letter-spacing: 0.3rem;
     margin: 20px;
     z-index: 10;
-    letter-spacing: 0.5rem;
 }
 
 .mediaLinksContainer {
@@ -97,7 +97,7 @@ nav {
     height: 80px;
     width: 140px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 25px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -109,7 +109,7 @@ nav {
     cursor: pointer;
 }
 
-.english {
+.korean {
     background-color: #75a3a3;
     color: floralwhite;
     height: 80px;
@@ -143,12 +143,17 @@ nav {
     height: 60px;
     margin-right: 20px;
     padding: 18px 10px;
-    background-color: rgba(179, 0, 0, 0.2);
+    background-color: #ffb3b3;
 }
 
 .menuItems li:hover {
     cursor: pointer;
-    background-color: rgba(89, 89, 89, 0.5);
+    background-color: #808080;
+    color: white;
+}
+
+.langHamburger {
+    visibility: hidden;
 }
 
 .content {
@@ -162,7 +167,7 @@ nav {
 
 .aboutMe {
     background-color: #fffaf0;
-    height: 520px;
+    height: 550px;
     padding-top: 1%;
 }
 
@@ -171,7 +176,7 @@ nav {
     font-weight: 100;
     color: #b30000;
     text-align: center;
-    border-bottom: 1px solid #a3a3c2;
+    border-bottom: 1px solid #75a3a3;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -185,28 +190,26 @@ nav {
 }
 
 .portrait {
-    width: 25%;
+    width: 28%;
     float: left;
+    position: relative;
     margin-top: 2%;
     overflow: auto;
 }
 
-.portraitPhoto {
+.portraitPhoto img {
     width: 100%;
-    border-radius: 50%;
-    border: 5px solid #b30000;
 }
 
-.scrum {
-    width: 120px;
-    position: relative;
-    float: left;
-    top: -50px;
-    left: 120px;
+.scrum img {
+    width: 50%;
+    position: absolute;
+    top: 150px;
+    right: 0px;
 }
 
 .aboutMeText {
-    font-size: 1.1rem;
+    font-size: 1rem;
     float: right;
     width: 65%;
 }
@@ -222,10 +225,10 @@ nav {
     font-weight: 100;
     color: #b30000;
     text-align: center;
-    border-bottom: 1px solid #a3a3c2;
-    width: 24%;
-    margin-left: 38%;
-    margin-right: 38%;
+    border-bottom: 1px solid #75a3a3;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
 }
 
@@ -248,7 +251,7 @@ nav {
 }
 
 .labelContainer {
-    border: 4px solid rgba(92, 138, 138, 0.3);
+    border: 2px solid #75a3a3;
     overflow: auto;
 
 }
@@ -287,7 +290,7 @@ nav {
     font-weight: 100;
     color: #b30000;
     text-align: center;
-    border-bottom: 1px solid #a3a3c2;
+    border-bottom: 1px solid #75a3a3;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -324,6 +327,19 @@ nav {
     width: 100%;
 }
 
+.githubLink {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 5;
+}
+
 .projectHeading {
     color: white;
     font-size: 1.2rem;
@@ -357,8 +373,401 @@ nav {
     font-size: 2.5rem;
     font-weight: 100;
     text-align: center;
-    border-bottom: 1px solid #a3a3c2;
+    border-bottom: 1px solid #75a3a3;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contactsContainer {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.contactRow {
+    width: 100%;
+    overflow: auto;
+}
+
+.contactLinks {
+    width: 45.5%;
+    height: 90px;
+    margin: 1.6%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid darkgrey;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contactLinks p {
+    margin: 12px;
+    font-size: 2.3rem;
+}
+
+.contactLinks:hover {
+    background-color: rgba(255, 250, 240, 0.4);
+    cursor: pointer;
+}
+
+.contactLinks img {
+    height: 70%;
+    margin-top: 15px;
+    filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 1200px){
+    .aboutMe {
+        height: 600px;
+    }
+
+    .contactLinks p {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    html {
+        font-size: 14px;
+    }
+
+    nav {
+        width: 120px;
+    }
+
+    .hamburger {
+        width: 100px;
+    }
+
+    .korean {
+        width: 100px;
+    }
+
+    .menuItems li {
+        font-size: 0.9rem;
+    }
+
+    .heading {
+        width: 90%;
+        margin: 0% 5% 0% 5%;
+    }
+
+    .aboutMe {
+        height: 580px;
+    }
+
+    .portfolio {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .githubLink {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contactLinks p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 880px){
+    html {
+        font-size: 13px;
+    }
+
+    nav {
+        overflow: hidden;
+        width: 100%;
+        background: #b30000;
+    }
+
+    .hamburger {
+        color: floralwhite;
+        height: 60px;
+        padding-top: 18px;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+
+    .korean {
+        visibility: hidden;
+        display: none;
+    }
+
+    .menuItems li {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .koreanHamburger {
+        visibility: visible;
+    }
+
+    .aboutMe {
+        margin-top: 60px;
+    }
+
+    .contactLinks p {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .portfolio {
+        height: 1350px;
+    }
+
+    .portfolioContainer {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .projectContainer {
+        width: 90%;
+        margin: 20px 5% 20px 5%;
+    }
+
+    .projectHeading {
+        font-size: 1.5rem;
+    }
+
+    .githubLink {
+        height: 55px;
+        width: 55px;
+    }
+
+    .contactLinks {
+        width: 98%;
+        height: 70px;
+    }
+
+    .contactLinks p {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .contactLinks img {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    html {
+        font-size: 11px;
+    }
+
+    .banner {
+        height: 380px;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .aboutMe {
+        height: 1100px;
+    }
+
+    .portrait {
+        float: none;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .aboutMeText {
+        float: none;
+        margin: 0 auto 30px auto;
+        font-size: 1.5rem;
+    }
+
+    .competencies {
+        height: 1110px;
+    }
+
+    .competencies h1 {
+        width: 250px;
+    }
+
+    .label {
+        width: 33%;
+    }
+
+    .portfolio {
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner {
+        padding-top: 0px;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 10% auto 0 auto;
+    }
+
+    .aboutMe {
+        height: 1150px;
+    }
+
+    .heading {
+        padding: 5px;
+    }
+
+    .aboutMeContainer {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .portfolio {
+        height: 1250px;
+    }
+
+    .portfolioContainer {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .githubLink {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .portfolio {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutMe {
+        height: 1250px;
+    }
+
+    .portfolio {
+        height: 1000px;
+    }
+
+    .projectHeading {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mediaLinks img {
+        height: 65%;
+    }
+
+    .aboutMe {
+        height: 1300px;
+    }
+
+    .competencies {
+        height: 1060px;
+    }
+
+    .label img {
+        height: 70px;
+    }
+
+    .portfolio {
+        height: 920px;
+    }
+
+    .contactLinks p {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .aboutMe {
+        height: 1350px;
+    }
+
+    .portfolio {
+        height: 900px;
+    }
+
+    .projectHeading {
+        font-size: 1.2rem;
+    }
+
+    .githubLink {
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    html {
+        font-size: 10px;
+    }
+
+    .aboutMe {
+        height: 1250px;
+    }
+
+    .projectHeading {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .projectHeading p {
+        margin-top: 5px;
+        height: 20px;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    html {
+        font-size: 9px;
+    }
+
+    .aboutMe {
+        height: 1100px;
+    }
+
+    .competencies {
+        height: 950px;
+    }
+
+    .label img {
+        height: 60px;
+    }
+
+    .projectHeading {
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    .projectHeading p {
+        margin-top: 5px;
+        height: 20px;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .githubLink {
+        height: 40px;
+        width: 40px;
+    }
 }
