@@ -226,9 +226,9 @@ nav {
     color: #b30000;
     text-align: center;
     border-bottom: 1px solid #75a3a3;
-    width: 24%;
-    margin-left: 38%;
-    margin-right: 38%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
 }
 
@@ -598,6 +598,10 @@ nav {
         height: 1110px;
     }
 
+    .competencies h1 {
+        width: 250px;
+    }
+
     .label {
         width: 33%;
     }
@@ -663,8 +667,16 @@ nav {
 }
 
 @media screen and (max-width: 425px) {
+    .mediaLinks img {
+        height: 65%;
+    }
+
     .aboutMe {
         height: 1300px;
+    }
+
+    .label img {
+        height: 70px;
     }
 
     .portfolio {
@@ -674,7 +686,6 @@ nav {
     .contactLinks p {
         font-size: 2.1rem;
     }
-
 
 }
 
@@ -686,5 +697,10 @@ nav {
     .portfolio {
         height: 900px;
     }
+}
 
+@media screen and (max-width: 380px) {
+    .aboutMe {
+        height: 1400px;
+    }
 }
