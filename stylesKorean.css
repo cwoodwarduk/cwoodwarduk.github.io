@@ -24,6 +24,10 @@ a {
     color: black;
 }
 
+p {
+    font-weight: 500;
+}
+
 
 .banner {
     height: 500px;
