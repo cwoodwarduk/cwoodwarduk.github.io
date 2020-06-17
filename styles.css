@@ -167,8 +167,8 @@ nav {
 
 .aboutMe {
     background-color: #fffaf0;
-    height: 550px;
-    padding-top: 1%;
+    height: 40vh;
+    padding-top: 1vh;
 }
 
 .aboutMe h1 {
@@ -210,8 +210,8 @@ nav {
 
 .aboutMeText {
     font-size: 1rem;
-    float: right;
-    width: 65%;
+    /*float: right;*/
+    /*width: 65%;*/
 }
 
 .competencies {
