@@ -11,7 +11,7 @@ html {
 
 body {
     display: block;
-    background: url("images/banner.jpg") no-repeat top center fixed;
+    background: #464646 url("images/banner.jpg") no-repeat top center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
