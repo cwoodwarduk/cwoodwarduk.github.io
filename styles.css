@@ -167,7 +167,7 @@ nav {
 
 .aboutMe {
     background-color: #fffaf0;
-    height: 40vh;
+    /*height: 40vh;*/
     padding-top: 1vh;
 }
 
@@ -175,19 +175,19 @@ nav {
     font-size: 2.5rem;
     font-weight: 100;
     color: #b30000;
-    text-align: center;
+    /*text-align: center;*/
     border-bottom: 1px solid #75a3a3;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    /*width: 200px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     margin-top: 40px;
 }
 
-.aboutMeContainer {
-    width: 70%;
-    margin-left: 15%;
-    overflow: auto;
-}
+/*.aboutMeContainer {*/
+/*    width: 70%;*/
+/*    margin-left: 15%;*/
+/*    overflow: auto;*/
+/*}*/
 
 .portrait {
     width: 28%;
