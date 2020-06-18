@@ -10,9 +10,8 @@ window.onscroll = function() {
 }
 
 
-var navbar = document.querySelector(".customNav")
+var navbar = document.querySelector(".navbar")
 var sticky = navbar.offsetTop
-
 function navScroll() {
     if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")

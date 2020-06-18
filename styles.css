@@ -85,7 +85,7 @@ a {
 nav {
     overflow: hidden;
     width: 160px;
-    top: 40vh;
+    top: 500px;
     right: 0px;
     float: right;
     z-index: 9999;
