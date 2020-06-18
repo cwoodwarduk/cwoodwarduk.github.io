@@ -420,6 +420,12 @@ nav {
     filter: brightness(0) invert(1);
 }
 
+@media screen and (min-width: 1500px){
+    .portrait {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 1200px){
     .aboutMe {
         height: 600px;
