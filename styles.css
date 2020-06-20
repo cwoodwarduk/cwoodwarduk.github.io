@@ -429,15 +429,43 @@ nav {
     filter: brightness(0) invert(1);
 }
 
+@media screen and (min-width: 2500px){
+    .portfolio {
+        height: 1400px;
+    }
+}
+
+@media screen and (min-width: 2300px){
+    .portfolio {
+        height: 1300px;
+    }
+}
+
 @media screen and (min-width: 2150px){
     .aboutMeText{
         margin-top: 3.5%;
     }
 }
 
+@media screen and (min-width: 2000px){
+    .portfolio {
+        height: 1200px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .portfolio {
+        height: 1100px;
+    }
+}
+
 @media screen and (min-width: 1700px){
     .aboutMeText{
         margin-top: 2%;
+    }
+
+    .portfolio {
+        height: 1000px;
     }
 }
 
@@ -506,6 +534,10 @@ nav {
 
     .aboutMe {
         height: 580px;
+    }
+
+    .competencies {
+        height: 900px;
     }
 
 }
