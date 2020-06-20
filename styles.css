@@ -765,6 +765,10 @@ nav {
         font-size: 9px;
     }
 
+    .mediaLinks img {
+        height: 55%;
+    }
+
     .aboutMe {
         height: 1100px;
     }
