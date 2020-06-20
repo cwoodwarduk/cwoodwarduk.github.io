@@ -781,6 +781,10 @@ nav {
         height: 60px;
     }
 
+    .portfolio {
+        height: 850px;
+    }
+
     .projectHeading {
         font-size: 0.9rem;
         margin-top: 5px;
