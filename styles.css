@@ -445,6 +445,10 @@ nav {
     .banner {
         height: 600px;
     }
+
+    .portfolio {
+        height: 950px;
+    }
 }
 
 @media screen and (min-width: 1500px){
