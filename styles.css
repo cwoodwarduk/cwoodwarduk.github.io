@@ -717,7 +717,7 @@ nav {
 
 @media screen and (max-width: 400px) {
     .aboutMe {
-        height: 1250px;
+        height: 1000px;
     }
 
     .portfolio {
