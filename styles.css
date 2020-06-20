@@ -458,6 +458,14 @@ nav {
         width: 120px;
     }
 
+    .hamburger {
+        width: 120px;
+    }
+
+    .lang{
+        width: 120px;
+    }
+
     .menuItems li {
         font-size: 0.9rem;
     }
