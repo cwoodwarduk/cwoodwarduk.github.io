@@ -677,7 +677,7 @@ nav {
 
 @media screen and (max-width: 480px) {
     .aboutMe {
-        height: 1250px;
+        height: 1100px;
     }
 
     .portfolio {
@@ -695,7 +695,7 @@ nav {
     }
 
     .aboutMe {
-        height: 1300px;
+        height: 1100px;
     }
 
     .competencies {
@@ -717,7 +717,7 @@ nav {
 
 @media screen and (max-width: 400px) {
     .aboutMe {
-        height: 1350px;
+        height: 1250px;
     }
 
     .portfolio {
@@ -739,10 +739,6 @@ nav {
         font-size: 10px;
     }
 
-    .aboutMe {
-        height: 1250px;
-    }
-
     .projectHeading {
         font-size: 1rem;
         margin-top: 5px;
@@ -759,10 +755,6 @@ nav {
 @media screen and (max-width: 330px) {
     html {
         font-size: 9px;
-    }
-
-    .aboutMe {
-        height: 1100px;
     }
 
     .competencies {
