@@ -479,9 +479,6 @@ nav {
         height: 580px;
     }
 
-    .portfolio {
-        height: 600px;
-    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -492,6 +489,10 @@ nav {
 
     .contactLinks p {
         font-size: 1.8rem;
+    }
+
+    .portfolio {
+        height: 600px;
     }
 }
 
