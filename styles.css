@@ -457,6 +457,10 @@ nav {
     .banner {
         height: 550px;
     }
+
+    .portfolio {
+        height: 950px;
+    }
 }
 
 @media screen and (max-width: 1200px){
