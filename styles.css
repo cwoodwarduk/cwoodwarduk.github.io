@@ -420,9 +420,21 @@ nav {
     filter: brightness(0) invert(1);
 }
 
+@media screen and (min-width: 1600px){
+    .banner {
+        height: 600px;
+    }
+}
+
 @media screen and (min-width: 1500px){
     .portrait {
         width: 300px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .banner {
+        height: 550px;
     }
 }
 
@@ -444,14 +456,6 @@ nav {
 
     nav {
         width: 120px;
-    }
-
-    .hamburger {
-        width: 100px;
-    }
-
-    .korean {
-        width: 100px;
     }
 
     .menuItems li {
