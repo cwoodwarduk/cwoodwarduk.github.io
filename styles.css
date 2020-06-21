@@ -485,6 +485,10 @@ nav {
         height: 550px;
     }
 
+    .portrait {
+        width: 280px;
+    }
+
     .portfolio {
         height: 900px;
     }
