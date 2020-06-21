@@ -477,6 +477,7 @@ nav {
 @media screen and (max-width: 1500px){
     .portrait {
         width: 280px;
+        margin-top: 5%;
     }
 }
 
@@ -491,6 +492,12 @@ nav {
 
     .portfolio {
         height: 900px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .portrait {
+        width: 240px;
     }
 }
 
