@@ -290,7 +290,7 @@ nav {
 
 .portfolio {
     background-color: #fffaf0;
-    height: 1300px;
+    height: 1400px;
     padding-top: 1%;
 }
 
@@ -429,37 +429,32 @@ nav {
     filter: brightness(0) invert(1);
 }
 
-@media screen and (min-width: 2500px){
-    .portfolio {
-        height: 1400px;
-    }
-}
 
-@media screen and (min-width: 2300px){
+@media screen and (max-width: 2300px){
     .portfolio {
         height: 1300px;
     }
 }
 
-@media screen and (min-width: 2150px){
+@media screen and (max-width: 2150px){
     .aboutMeText{
         margin-top: 3.5%;
     }
 }
 
-@media screen and (min-width: 2000px){
+@media screen and (max-width: 2000px){
     .portfolio {
         height: 1200px;
     }
 }
 
-@media screen and (min-width: 1800px){
+@media screen and (max-width: 1800px){
     .portfolio {
         height: 1100px;
     }
 }
 
-@media screen and (min-width: 1700px){
+@media screen and (max-width: 1700px){
     .aboutMeText{
         margin-top: 2%;
     }
@@ -469,7 +464,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 1600px){
+@media screen and (max-width: 1600px){
     .banner {
         height: 600px;
     }
@@ -479,13 +474,13 @@ nav {
     }
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (max-width: 1500px){
     .portrait {
         width: 300px;
     }
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (max-width: 1400px){
     .banner {
         height: 550px;
     }
@@ -533,7 +528,7 @@ nav {
     }
 
     .aboutMe {
-        height: 580px;
+        height: 630px;
     }
 
     .competencies {
