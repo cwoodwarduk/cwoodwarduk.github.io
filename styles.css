@@ -193,7 +193,7 @@ nav {
     width: 300px;
     float: left;
     position: relative;
-    /*margin-top: 2%;*/
+    margin-top: 2%;
     overflow: auto;
 }
 
@@ -610,6 +610,19 @@ nav {
 
     .aboutMe {
         margin-top: 60px;
+        height: 1100px;
+    }
+
+    .portrait {
+        float: none;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .aboutMeText {
+        float: none;
+        margin: 0 auto 30px auto;
+        font-size: 1.5rem;
     }
 
     .contactLinks p {
@@ -671,22 +684,6 @@ nav {
     .heading {
         width: 100%;
         margin: 0 auto;
-    }
-
-    .aboutMe {
-        height: 1100px;
-    }
-
-    .portrait {
-        float: none;
-        margin: 0 auto;
-        width: 40%;
-    }
-
-    .aboutMeText {
-        float: none;
-        margin: 0 auto 30px auto;
-        font-size: 1.5rem;
     }
 
     .competencies {
