@@ -194,7 +194,7 @@ nav {
 }
 
 .portrait {
-    width: 28%;
+    width: 300px;
     float: left;
     position: relative;
     margin-top: 2%;
@@ -214,7 +214,9 @@ nav {
 
 .aboutMeText {
     font-size: 1rem;
-    float: right;
+    float: left;
+    margin-top: 3.5%;
+    margin-left: 5%;
     width: 65%;
 }
 
@@ -285,7 +287,7 @@ nav {
 
 .portfolio {
     background-color: #fffaf0;
-    height: 820px;
+    height: 1400px;
     padding-top: 1%;
 }
 
@@ -424,9 +426,97 @@ nav {
     filter: brightness(0) invert(1);
 }
 
+
+@media screen and (max-width: 2300px){
+    .portfolio {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 2150px){
+    .aboutMeText{
+        margin-top: 3.5%;
+    }
+}
+
+@media screen and (max-width: 2000px){
+    .portfolio {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    .portfolio {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .aboutMeText{
+        margin-top: 2%;
+    }
+
+    .portfolio {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .banner {
+        height: 600px;
+    }
+
+    .portfolio {
+        height: 950px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .portrait {
+        width: 280px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .banner {
+        height: 550px;
+    }
+
+    .portrait {
+        width: 260px;
+    }
+
+    .portfolio {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .aboutMe{
+        height: 600px;
+    }
+
+    .portrait {
+        width: 240px;
+    }
+
+    .portfolio {
+        height: 850px;
+    }
+}
+
 @media screen and (max-width: 1200px){
     .aboutMe {
         height: 600px;
+    }
+
+    .portrait {
+        width: 220px;
+    }
+
+    .portfolio {
+        height: 800px;
     }
 
     .contactLinks p {
@@ -440,16 +530,20 @@ nav {
         font-size: 14px;
     }
 
+    .portrait {
+        width: 200px;
+    }
+
     nav {
         width: 120px;
     }
 
     .hamburger {
-        width: 100px;
+        width: 120px;
     }
 
-    .lang {
-        width: 100px;
+    .lang{
+        width: 120px;
     }
 
     .menuItems li {
@@ -462,12 +556,17 @@ nav {
     }
 
     .aboutMe {
-        height: 580px;
+        height: 630px;
+    }
+
+    .competencies {
+        height: 900px;
     }
 
     .portfolio {
-        height: 600px;
+        height: 750px;
     }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -476,20 +575,33 @@ nav {
         width: 50px;
     }
 
+    .portrait {
+        width: 180px;
+    }
+
     .contactLinks p {
         font-size: 1.8rem;
+    }
+
+    .portfolio {
+        height: 700px;
     }
 }
 
 @media screen and (max-width: 880px){
+
     html {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     nav {
         overflow: hidden;
         width: 100%;
         background: #b30000;
+    }
+
+    .banner{
+        height: 450px;
     }
 
     .hamburger {
@@ -519,6 +631,19 @@ nav {
 
     .aboutMe {
         margin-top: 60px;
+        height: 1100px;
+    }
+
+    .portrait {
+        float: none;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .aboutMeText {
+        float: none;
+        margin: 0 auto 30px auto;
+        font-size: 1.5rem;
     }
 
     .contactLinks p {
@@ -569,8 +694,9 @@ nav {
 }
 
 @media screen and (max-width: 720px){
+
     html {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .banner {
@@ -666,7 +792,7 @@ nav {
     }
 
     .portfolio {
-        height: 1000px;
+        height: 900px;
     }
 
     .projectHeading {
@@ -684,7 +810,7 @@ nav {
     }
 
     .competencies {
-        height: 1060px;
+        height: 1000px;
     }
 
     .label img {
@@ -703,6 +829,10 @@ nav {
 @media screen and (max-width: 400px) {
     .aboutMe {
         height: 1350px;
+    }
+
+    .competencies {
+        height: 950px;
     }
 
     .portfolio {
@@ -746,16 +876,24 @@ nav {
         font-size: 9px;
     }
 
+    .mediaLinks img {
+        height: 55%;
+    }
+
     .aboutMe {
         height: 1100px;
     }
 
     .competencies {
-        height: 950px;
+        height: 850px;
     }
 
     .label img {
         height: 60px;
+    }
+
+    .portfolio {
+        height: 850px;
     }
 
     .projectHeading {
