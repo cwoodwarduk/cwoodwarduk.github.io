@@ -596,6 +596,10 @@ nav {
         background: #b30000;
     }
 
+    .banner{
+        height: 450px;
+    }
+
     .hamburger {
         color: floralwhite;
         height: 60px;
