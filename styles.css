@@ -496,6 +496,10 @@ nav {
     .portrait {
         width: 240px;
     }
+
+    .portfolio {
+        height: 850px;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -505,6 +509,10 @@ nav {
 
     .portrait {
         width: 220px;
+    }
+
+    .portfolio {
+        height: 800px;
     }
 
     .contactLinks p {
@@ -551,6 +559,10 @@ nav {
         height: 900px;
     }
 
+    .portfolio {
+        height: 750px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -568,12 +580,12 @@ nav {
     }
 
     .portfolio {
-        height: 600px;
+        height: 700px;
     }
 }
 
 @media screen and (max-width: 880px){
-    
+
     html {
         font-size: 11px;
     }
@@ -674,6 +686,9 @@ nav {
 
 @media screen and (max-width: 720px){
 
+    html {
+        font-size: 10px;
+    }
 
     .banner {
         height: 380px;
