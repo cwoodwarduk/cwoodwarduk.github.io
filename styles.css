@@ -573,8 +573,9 @@ nav {
 }
 
 @media screen and (max-width: 880px){
+    
     html {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     nav {
@@ -633,7 +634,6 @@ nav {
 
 @media screen and (max-width: 800px) {
 
-
     .portfolio {
         height: 1350px;
     }
@@ -673,9 +673,7 @@ nav {
 }
 
 @media screen and (max-width: 720px){
-    html {
-        font-size: 11px;
-    }
+
 
     .banner {
         height: 380px;
