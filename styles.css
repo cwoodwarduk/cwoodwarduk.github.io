@@ -201,7 +201,7 @@ nav {
     width: 300px;
     float: left;
     position: relative;
-    margin-top: 2%;
+    /*margin-top: 2%;*/
     overflow: auto;
 }
 
@@ -496,6 +496,10 @@ nav {
 }
 
 @media screen and (max-width: 1300px){
+    .aboutMe{
+        height: 600px;
+    }
+
     .portrait {
         width: 240px;
     }
@@ -504,6 +508,10 @@ nav {
 @media screen and (max-width: 1200px){
     .aboutMe {
         height: 600px;
+    }
+
+    .portrait {
+        width: 220px;
     }
 
     .contactLinks p {
@@ -515,6 +523,10 @@ nav {
 @media screen and (max-width: 1100px){
     html {
         font-size: 14px;
+    }
+
+    .portrait {
+        width: 200px;
     }
 
     nav {
@@ -552,6 +564,10 @@ nav {
     .githubLink {
         height: 50px;
         width: 50px;
+    }
+
+    .portrait {
+        width: 180px;
     }
 
     .contactLinks p {
