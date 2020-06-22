@@ -189,14 +189,6 @@ nav {
     overflow: auto;
 }
 
-/*.aboutMeText {*/
-/*    font-size: 1rem;*/
-/*    float: left;*/
-/*    margin-left: 5%;*/
-/*    margin-top: 3%;*/
-/*    width: 65%;*/
-/*}*/
-
 .portrait {
     width: 300px;
     float: left;
@@ -219,6 +211,7 @@ nav {
 .aboutMeText {
     font-size: 1rem;
     float: left;
+    margin-top: 3.5%;
     margin-left: 5%;
     width: 65%;
 }
